@@ -1,4 +1,5 @@
 import Section1Images_3 from '../../../assets/Section 1 Images.jpeg'
+import Section1Images_2 from '../../../assets/Section 1 Image 2.png'
 
 function Section1() {
   return (
@@ -10,15 +11,19 @@ function Section1() {
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="3000">
           <img
-            src={
-              'https://graphiste.com/blog/wp-content/uploads/2017/04/couverture-facebook-810x403.jpg'
-            }
-            className="d-block w-100"
+            src={Section1Images_2}
+            className="d-block w-100 "
+            height={307}
             alt="..."
           />
         </div>
         <div className="carousel-item" data-bs-interval="3000">
-          <img src={Section1Images_3} className="d-block w-100" alt="..." />
+          <img
+            src={Section1Images_3}
+            height={307}
+            className="d-block w-100"
+            alt="..."
+          />
         </div>
       </div>
       <button
